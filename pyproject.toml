@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sir-agent-based-modelling"
+version = "0.1.0"
+description = ""
+authors = ["jbris <james.bristow@plantandfood.co.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+scipy = "^1.11.4"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+jupyterlab = "^4.0.9"
+notebook = "^7.0.6"
+tqdm = "^4.66.1"
+ipympl = "^0.9.3"
+imageio = "^2.33.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
